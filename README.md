@@ -9,13 +9,13 @@
 ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 
 
-We were tasked with redesigning, from scratch, the products page for an eCommerce company. As a group we created an overview component, related product component, questions and answers component and a reviews and ratings component. React allowed us to implement the requirements quickly and to keep the code maintainable. We were able to use React hooks and context to allow all the components to interface and share the same data.
+Real-time COVID-19 data updates for every country in the world, tracking cases, deaths, recoveries. React allowed us to implement the requirements quickly and to keep the code maintainable. We were able to use React hooks and context to allow all the components to interface and share the same data.
 
 ![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/1.png)
 
 
 ## Product Overview
-Provides a comprehensive look of the selected product. Displays a main image along with its accompanied selectable images to provide other views of the product. Details of the product include the review rating, category, name, price and the available styles. Selecting the styles will show variants along with with the images, sizes, and product availability.
+Provides a comprehensive look of covid-19 cases all over the workd. Displays a main map along with its accompanied infoBox that will show the distribution of the pandemic on the world map. Clicking on the infoBox will show variants along with with the images, sizes, and product availability. By changing countries, the specific cases of this country will show on infoBox and map. 
 
 
 ## Map component
@@ -23,15 +23,15 @@ Related product widgets consist of two parts. One is the Related products which 
 
 
 ## InfoBox Component
-The questions and answers widget provides the customer with a list of questions for a given product. On page load, the widget will request data from the API and dynamically render the correct questions in order of helpfulness rating. Additional functionality includes a search bar to filter the displayed questions, options to post questions and answers to the API and buttons to rate questions as helpful or report report them for internal review.
+The infoBox component consists of three parts which provid the user with the active, recovered and death cases for a selected country. On page load, the widget will request data from the API and dynamically render the correct questions in order of helpfulness rating. Additional functionality includes a search bar to filter the displayed questions, options to post questions and answers to the API and buttons to rate questions as helpful or report report them for internal review.
 
 ## Table component
-The ratings and reviews section provides access to user feedback for the current product. Reviews from other users can be read and new reviews can be created. Also there is a breakdown of the ratings given for all of reviews and the average score given for the characteristics of the current product.
+This table component shows countries around the world ranked from highest to lowest number of outbreaks.
 
 ![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/2.png)
 
 ## LineGraph component
-The ratings and reviews section provides access to user feedback for the current product. Reviews from other users can be read and new reviews can be created. Also there is a breakdown of the ratings given for all of reviews and the average score given for the characteristics of the current product.
+The LineGraph component visually shows the trend of the epidemic over several months.
 
 ## Building and running on localhost
 
