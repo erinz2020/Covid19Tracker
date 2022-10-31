@@ -1,4 +1,4 @@
-# Covid19Tracker
+# Covid-19Tracker
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -18,20 +18,18 @@ We were tasked with redesigning, from scratch, the products page for an eCommerc
 Provides a comprehensive look of the selected product. Displays a main image along with its accompanied selectable images to provide other views of the product. Details of the product include the review rating, category, name, price and the available styles. Selecting the styles will show variants along with with the images, sizes, and product availability.
 
 
-## Related Products
+## Map component
 Related product widgets consist of two parts. One is the Related products which are related to the item displayed by overview component and it changes accordingly. Having carousel of cards let users navigate between the card. And, upon clicking on a star button a modal would pop up which compares the feature between the related card and the product item. Once a card clicked, it would change the overview item as well. The second part is the outfit section, which is unique to each user. It gives the user the ability to save the current product item and navigating through them.
 
 
-## Product Questions and Answers
+## InfoBox Component
 The questions and answers widget provides the customer with a list of questions for a given product. On page load, the widget will request data from the API and dynamically render the correct questions in order of helpfulness rating. Additional functionality includes a search bar to filter the displayed questions, options to post questions and answers to the API and buttons to rate questions as helpful or report report them for internal review.
 
-## Product Ratings and Reviews
+## Table component
 The ratings and reviews section provides access to user feedback for the current product. Reviews from other users can be read and new reviews can be created. Also there is a breakdown of the ratings given for all of reviews and the average score given for the characteristics of the current product.
 
-### Ratings and Review Component
-![2021-11-13_09-53-56 (1)](https://user-images.githubusercontent.com/54276174/141654272-021a70fe-390e-437a-8477-9b6f401ffe4d.gif)
-
-
+## Table component
+The ratings and reviews section provides access to user feedback for the current product. Reviews from other users can be read and new reviews can be created. Also there is a breakdown of the ratings given for all of reviews and the average score given for the characteristics of the current product.
 
 ## Building and running on localhost
 
