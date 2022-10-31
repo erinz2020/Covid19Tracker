@@ -28,7 +28,9 @@ The questions and answers widget provides the customer with a list of questions 
 ## Table component
 The ratings and reviews section provides access to user feedback for the current product. Reviews from other users can be read and new reviews can be created. Also there is a breakdown of the ratings given for all of reviews and the average score given for the characteristics of the current product.
 
-## Table component
+![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/2.png)
+
+## LineGraph component
 The ratings and reviews section provides access to user feedback for the current product. Reviews from other users can be read and new reviews can be created. Also there is a breakdown of the ratings given for all of reviews and the average score given for the characteristics of the current product.
 
 ## Building and running on localhost
