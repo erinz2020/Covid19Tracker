@@ -1,0 +1,58 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f6fa;
+}
+
+.App{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.app__left{
+    flex: 1;
+    padding: 20px;
+
+}
+
+.app__right{
+    flex:0.3;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.InfoBox{
+    flex:1;
+}
+
+.InfoBox:not(:last-child){
+    margin-right: 15px;
+}
+
+.app__right{
+    padding: 20px;
+}
+
+.Table{
+    overflow: scroll;
+    height: 400px;
+}
+
+.Table tr:nth-of-type(odd){
+    background-color: #f3f2f8;
+}
