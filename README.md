@@ -16,7 +16,7 @@
 
 We were tasked with redesigning, from scratch, the products page for an eCommerce company. As a group we created an overview component, related product component, questions and answers component and a reviews and ratings component. React allowed us to implement the requirements quickly and to keep the code maintainable. We were able to use React hooks and context to allow all the components to interface and share the same data.
 
-!(https://github.com/erinz2020/pictures/blob/main/1.png)
+![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/1.png)
 
 
 ## Product Overview
