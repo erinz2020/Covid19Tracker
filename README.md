@@ -15,58 +15,32 @@ Real-time COVID-19 data updates for every country in the world, tracking cases, 
 
 
 ## Product Overview
-Provides a comprehensive look of covid-19 cases all over the workd. Displays a main map along with its accompanied infoBox that will show the distribution of the pandemic on the world map. Clicking on the infoBox will show variants along with with the images, sizes, and product availability. By changing countries, the specific cases of this country will show on infoBox and map. 
+This product displays the Covid-19 pandemic situation in various countries around the world in real time. There are 3 Infoboxes and a map on the left side of the page. By selecting a country from the drop-down menu, the infoBoxes and the map can display the distribution of the Covid-19 cases and the specific cases of each country.
 
 
-## Map component
-Related product widgets consist of two parts. One is the Related products which are related to the item displayed by overview component and it changes accordingly. Having carousel of cards let users navigate between the card. And, upon clicking on a star button a modal would pop up which compares the feature between the related card and the product item. Once a card clicked, it would change the overview item as well. The second part is the outfit section, which is unique to each user. It gives the user the ability to save the current product item and navigating through them.
+## InfoBox and Map components
+The infoBoxes component can display the active cases, recovered cases and deaths in that country using numeral to format the numbers. The map can also display the distribution of the epidemic around the world, with red circles showing the corresponding current active cases, green circles showing the number of recovered cases, and yellow circles showing the number of dead cases. we can change the type of displayed data by clicking on the infobox.
 
-
-## InfoBox Component
-The infoBox component consists of three parts which provid the user with the active, recovered and death cases for a selected country. On page load, the widget will request data from the API and dynamically render the correct questions in order of helpfulness rating. Additional functionality includes a search bar to filter the displayed questions, options to post questions and answers to the API and buttons to rate questions as helpful or report report them for internal review.
 
 ## Table component
-This table component shows countries around the world ranked from highest to lowest number of outbreaks.
+This table component shows countries around the world ranked from highest to lowest number of outbreaks. In css implemented n:th of child to display adjacent rows in different colors for convinience.
 
 ![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/2.png)
 
 ## LineGraph component
-The LineGraph component visually shows the trend of the epidemic over several months.
+The LineGraph component visually shows the trend of the epidemic over several months. Clicking on the infoboxes on the left will also cause the graph to display the corresponding data.
 
 ## Building and running on localhost
+
+"scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
 
 First install dependencies:
 
 ```sh
 npm install
-```
-
-To run using nodemon:
-
-```sh
-npm start
-```
-
-To create a production build and watch for changes:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm test
 ```
