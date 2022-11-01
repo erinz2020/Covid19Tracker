@@ -9,7 +9,8 @@
 ![Babel](https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black)
 
 
-Real-time COVID-19 data updates for every country in the world, tracking cases, deaths, recoveries. React allowed us to implement the requirements quickly and to keep the code maintainable. We were able to use React hooks and context to allow all the components to interface and share the same data.
+Real-time COVID-19 data updates for every country in the world, tracking cases, deaths, recoveries. Leveraged React Hooks and Context to reduce the complexity of state management and allow for greater reusability within and between components. Utilized React, Bootstrap to create a responsive, accessible, and mobile-friendly user interface for the related product components of an Covid-19 Tracker web application. Implemented a D3 data visualization page to show the Covid-19 cases map all over the world. Created filter algorithm that dynamically renders data ranging from sorting criteria search terms, integrating map, search, and filter components.
+
 
 ![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/1.png)
 
