@@ -22,6 +22,8 @@ This product displays the Covid-19 pandemic situation in various countries aroun
 ## InfoBox and Map components
 The infoBoxes component can display the active cases, recovered cases and deaths in that country using numeral to format the numbers. The map can also display the distribution of the epidemic around the world, with red circles showing the corresponding current active cases, green circles showing the number of recovered cases, and yellow circles showing the number of dead cases. we can change the type of displayed data by clicking on the infobox.
 
+![Covid19-Tracker](https://github.com/erinz2020/pictures/blob/main/7.png)
+
 
 ## Table component
 This table component shows countries around the world ranked from highest to lowest number of outbreaks. In css implemented n:th of child to display adjacent rows in different colors for convinience.
